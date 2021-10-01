@@ -11,7 +11,7 @@
     "esbuild"
   ],
   "scripts": {
-    "start": "concurrently --names tsc,esb -c green.bold,blue.bold --kill-others \"yarn:bundle --dev\" \"tsc --watch\" ",
+    "start": "concurrently --names tsc,esb -c green.bold,blue.bold --kill-others \"tsc --watch\" \"yarn:bundle --dev\" ",
     "build": "concurrently --success --names tsc,esb -c green.bold,blue.bold tsc yarn:bundle",
     "bundle": "node ./esbuild.config.mjs",
     "clean": "rimraf www/dist",
