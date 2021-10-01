@@ -48,7 +48,7 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/main' }}
+    if: startsWith(github.ref, 'refs/tags/v')
     # We specify that deploys needs to
     # finish before we create a release
     needs: deploy
