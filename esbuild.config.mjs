@@ -8,6 +8,9 @@ esbuild
     entryPoints: ["src/index.tsx"],
     bundle: true,
     outfile: "www/dist/bundle.js",
+    loader: {
+      ".svg": "dataurl",
+    },
     minify: !isDevServer,
     sourcemap: true,
     incremental: isDevServer,
