@@ -1,24 +1,30 @@
 import React from "react";
-import term from "./term.svg";
-import "./App.css";
+import Docs from "./Docs";
 
-export function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={term} className="App-term" alt="term" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/btwiuse/react-esbuild-starter"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          btwiuse/react-esbuild-starter
-        </a>
-      </header>
+    <div id="main">
+      <div id="controller">
+        <input id="api" defaultValue="https://libredot.com" />
+        <button id="list">List</button>
+        <button id="watch">Watch</button>
+      </div>
+      <div id="view">
+        <Docs />
+        <div id="agents"></div>
+      </div>
     </div>
   );
 }
+
+export { App };
+
+/*
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137403717-1');
+  </script>
+*/
