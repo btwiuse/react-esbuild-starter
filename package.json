@@ -1,4 +1,5 @@
 {
+  "main": "./src/index.tsx",
   "name": "react-esbuild-starter",
   "version": "2.2.0",
   "description": "Starter template for React + Typescript, powered by Esbuild",

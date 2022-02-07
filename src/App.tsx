@@ -1,5 +1,5 @@
 import React from "react";
-import term from './term.svg';
+import term from "./term.svg";
 import "./App.css";
 
 export function App() {
