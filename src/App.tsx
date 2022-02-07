@@ -1,5 +1,6 @@
 import React from "react";
 import Docs from "./Docs";
+import AgentList from "./AgentList";
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
       </div>
       <div id="view">
         <Docs />
-        <div id="agents"></div>
+        <AgentList />
+        {/*<div id="agents"></div>*/}
       </div>
     </div>
   );

@@ -10,4 +10,4 @@ It provides minimal yet 🔥 blazing fast ™ development boilerplate for rapid 
 
 All code bundling and transpilation is handled by esbuild. Its configuration is kept inside `esbuild.config.mjs`. Follow [esbuild docs](https://esbuild.github.io/getting-started/) to see all supported options.
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/github/btwiuse/react-esbuild-starter/tree/main)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/github/btwiuse/react-esbuild-starter/tree/k0s)
