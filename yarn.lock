@@ -489,6 +489,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"os-icon@npm:^0.21.1":
+  version: 0.21.1
+  resolution: "os-icon@npm:0.21.1"
+  checksum: b47d37a6f8aada35a4513412efd5128167bb671aa46af3b7be84979cdb2cb1f51ed915a2a33c58640c1ca14fd96ed54791d7e2e596a484886dc581c64905cbf7
+  languageName: node
+  linkType: hard
+
 "path-is-absolute@npm:^1.0.0":
   version: 1.0.1
   resolution: "path-is-absolute@npm:1.0.1"
@@ -519,6 +526,7 @@ __metadata:
     concurrently: 7.0.0
     create-serve: 1.0.1
     esbuild: 0.14.18
+    os-icon: ^0.21.1
     react: 17.0.2
     react-dom: 17.0.2
     rimraf: 3.0.2

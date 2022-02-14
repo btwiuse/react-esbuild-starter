@@ -10,6 +10,10 @@ esbuild
     outfile: "www/dist/bundle.js",
     loader: {
       ".svg": "dataurl",
+      ".ttf": "file",
+      ".woff": "file",
+      ".woff2": "file",
+      ".eot": "file",
     },
     minify: !isDevServer,
     sourcemap: true,
