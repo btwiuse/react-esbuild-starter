@@ -3,8 +3,8 @@
   "name": "react-esbuild-starter",
   "version": "2.2.0",
   "description": "Starter template for React + Typescript, powered by Esbuild",
-  "repository": "https://github.com/belaczek/react-esbuild-starter.git",
-  "author": "Tomas Belada <tomas@belada.net>",
+  "repository": "https://github.com/btwiuse/react-esbuild-starter",
+  "author": "Btwiuse Arch <btwiuse@gmail.com>",
   "license": "MIT",
   "keywords": [
     "react",
@@ -19,19 +19,19 @@
     "test": "echo 'TODO'"
   },
   "dependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-router-dom": "^6.2.1"
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-router-dom": "6.3.0"
   },
   "devDependencies": {
-    "@types/node": "17.0.15",
-    "@types/react": "17.0.39",
-    "@types/react-dom": "17.0.11",
-    "@types/react-router-dom": "^5.3.3",
-    "concurrently": "7.0.0",
+    "@types/node": "17.0.30",
+    "@types/react": "18.0.8",
+    "@types/react-dom": "18.0.3",
+    "@types/react-router-dom": "5.3.3",
+    "concurrently": "7.1.0",
     "create-serve": "1.0.1",
-    "esbuild": "0.14.18",
+    "esbuild": "0.14.38",
     "rimraf": "3.0.2",
-    "typescript": "4.5.5"
+    "typescript": "4.6.4"
   }
 }
