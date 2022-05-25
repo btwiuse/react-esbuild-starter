@@ -23,7 +23,7 @@ export default function App() {
         <div>
           <Navbar />
           <Routes>
-            <Route path="/" />
+            <Route path="/" element={<></>}/>
             <Route path="/stats" element={<Stats />} />
             <Route path="/meanings-of-colors" element={<MeaningsOfColors />} />
           </Routes>
