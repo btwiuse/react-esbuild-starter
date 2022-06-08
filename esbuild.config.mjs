@@ -1,5 +1,5 @@
 import esbuild from "esbuild";
-import serve, { error, log } from "create-serve";
+import serve, { error, log } from "@btwiuse/serve";
 
 const isDevServer = process.argv.includes("--dev");
 

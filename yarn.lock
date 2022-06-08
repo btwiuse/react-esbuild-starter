@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@btwiuse/serve@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@btwiuse/serve/-/serve-1.0.1.tgz#74fecf8e951fd60525ee799623e0a7c8c7b437bf"
+  integrity sha512-a4Kh7sTE9+W9AJnCw6FTw4EuXab1TQAmWuj9LpiNGgy/qoXFatnrJUkN2bfurDRNOtniLn/p7whu/n0zA3WM5Q==
+
 "@types/node@17.0.30":
   version "17.0.30"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.30.tgz#2c6e8512acac70815e8176aa30c38025067880ef"
@@ -105,11 +110,6 @@ concurrently@7.1.0:
     supports-color "^8.1.0"
     tree-kill "^1.2.2"
     yargs "^16.2.0"
-
-create-serve@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/create-serve/-/create-serve-1.0.1.tgz#a52ec4cbd2d0f776d3e42338fa1f0dae69080c59"
-  integrity sha512-cDAmBGhkwolS7ihq7SnPE8KwjYUZl5FaI9Pq5ZBwNelSKvFR9OoAA4/B5BfB/NC+eYaykBpX9RVMfuU4DHtrPw==
 
 csstype@^3.0.2:
   version "3.0.11"
