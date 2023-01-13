@@ -13,11 +13,21 @@ interface Row {
 }
 
 function Profile() {
-  const { data, error, isLoading } = useSWR("//ufo.k0s.io/", fetcher);
+  let host = window.location.host.split(".").slice(1).join(".");
+  console.log(host);
+  let api = `//${host}/`;
+  if (
+    window.location.hostname === "127.0.0.1" ||
+    window.location.hostname === "localhost"
+  ) {
+    api = "//ufo.k0s.io/";
+  }
+
+  const { data, error, isLoading } = useSWR(api, fetcher);
 
   useEffect(() => {
     setInterval(() => {
-      mutate("//ufo.k0s.io/");
+      mutate(api);
       console.log(new Date(), "refreshing...");
     }, 5000);
   }, []);
