@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@btwiuse/serve/-/serve-1.0.2.tgz#5d74712cb1e3e671bbb50365a8980c8d9ab69c83"
   integrity sha512-9MHdd9AZpgUQ5OaH0rE//tGysCnkKrS0ebIZATlJfdkAHYcWlWbo6nfQa2i7N3Ci3eB93YBhPciK5Hb/T/h/yg==
 
-"@types/node@17.0.30":
-  version "17.0.30"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.30.tgz#2c6e8512acac70815e8176aa30c38025067880ef"
-  integrity sha512-oNBIZjIqyHYP8VCNAV9uEytXVeXG2oR0w9lgAXro20eugRQfY002qr3CUl6BAe+Yf/z3CRjPdz27Pu6WWtuSRw==
+"@types/node@20.1.4":
+  version "20.1.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.1.4.tgz#83f148d2d1f5fe6add4c53358ba00d97fc4cdb71"
+  integrity sha512-At4pvmIOki8yuwLtd7BNHl3CiWNbtclUbNtScGx4OHfBd4/oWoJC8KRCIxXwkdndzhxOsPXihrsOoydxBjlE9Q==
 
 "@types/prop-types@*":
   version "15.7.5"
